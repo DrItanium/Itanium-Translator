@@ -1,0 +1,19 @@
+This is a simple little program that translates Itanium assembler to CLIPS
+expert systems function calls. I used it for my final project in my expert
+systems class to make testing of my expert system basic block scheduler far
+easier.
+
+This is licensed under the BSD license.
+
+You're going to need Extensions, Collections, Starlight, Tycho,
+LexicalAnalysis, and Parser/Parsing.
+
+When cloning these you have to make sure they are in the Libraries folder. This
+is where the makefile looks to compile everything
+
+Another thing to note is that when pulling down Parser you need to make sure
+the folder is named Parsing. I will get around to fixing this but for the time
+being just clone the Parser repo and tell git to save the contents in
+Libraries/Parsing.
+
+Enjoy!
